@@ -1,0 +1,13 @@
+/*
+Theme Name: ABC Theme
+Author: Awan
+*/
+
+body{
+    background-color: rgb(212, 212, 212);
+}
+
+header{
+    width: 100%;
+    height: 70px;
+}
