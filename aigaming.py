@@ -1,37 +1,10 @@
-# Want to Improve the code? 
-# Look at these for sure! 
-# 1. Implement Landmark matching.
-# 2. Implement text recognition and word matching
-# 3. Read the tile backs to match tiles from the same category
-# 4. Check if you can match tiles in the bonus category
-# 5. Wait before matching any tiles to match tiles in consecutive Bonus Categories.
 
-
-
-
-
-
-
-
-
-
-
-
-#_  __  __       _       _        ____
-#  |  \/  | __ _| |_ ___| |__    / ___| __ _ _ __ ___   ___
-#  | |\/| |/ _` | __/ __| '_ \  | |  _ / _` | '_ ` _ \ / _ \
-#  | |  | | (_| | || (__| | | | | |_| | (_| | | | | | |  __/
-#  |_|  |_|\__,_|\__\___|_| |_|  \____|\__,_|_| |_| |_|\___|
-#
 botName='awanshrestha-defbot'
 import requests
 import json
 from random import sample, choice
 from time import sleep
 
-# See our help page to learn how to get a WEST EUROPE Microsoft API Key at
-#  https://help.aigaming.com/game-help/signing-up-for-azure
-#                                              *** Use westeurope API key for best performance ***
 headers_vision = {'Ocp-Apim-Subscription-Key': '462aee7bab9e4e46a70818a966c3b036'}
 vision_base_url = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/"
 
